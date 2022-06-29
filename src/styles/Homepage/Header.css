@@ -1,0 +1,29 @@
+header {
+    background-color: gray;
+}
+
+header ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+header li {
+    font-weight: bold;
+    list-style-type: none;
+    height: 100%;
+    background-color: inherit;
+    padding: 20px 20px 20px 20px;
+    transition: all 0.3s ease 0s;
+}
+
+header a {
+    text-decoration: none;
+    color: blue;
+}
+
+header li:hover {
+    background-color: lightblue;
+}
