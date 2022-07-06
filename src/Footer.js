@@ -1,7 +1,10 @@
+import './styles/Homepage/Footer.css'
+
 function Footer() {
   return (
-    
-    <h1>Welcome! This is a test!</h1>
+    <footer>
+      <p>This is a footer</p>
+    </footer>
   );
 }
 

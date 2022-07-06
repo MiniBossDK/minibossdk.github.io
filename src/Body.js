@@ -1,8 +1,11 @@
+import './styles/Homepage/Body.css'
 
 function Body() {
   return (
-    
-    <h1>Welcome! This is a test!</h1>
+    <article id='content-container'>
+      <h1>Welcome to my website!</h1>
+      <p>hhhhhhh</p>
+    </article>
   );
 }
 

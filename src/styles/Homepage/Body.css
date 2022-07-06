@@ -1,0 +1,10 @@
+#content-container {
+    height: 680px;
+    padding: 20px;
+    background-color: wheat;
+}
+
+h1 {
+    margin: 0;
+    text-align: left;
+}

@@ -4,17 +4,11 @@ function Header() {
     return (
         <header>
             <nav id='menu-items'>
-                <ul>
-                    <li className='menu-item'><a href="#">Home</a></li>
-                    <li className='menu-item'><a href="#">Projects</a></li>
-                    <li className='menu-item'><a href="#"></a></li>
-                    <li className='menu-item'><a href="#">Home</a></li>
-                    <li className='menu-item'><a href="#">Home</a></li>
-                    <li className='menu-item'><a href="#">Home</a></li>
-                    <li className='menu-item'><a href="#">Home</a></li>
-                    <li className='menu-item'><a href="#">Home</a></li>
-                    <li className='menu-item'><a href="#">About Me</a></li>
-                </ul>
+                <button className='menu-item'>Home</button>
+                <button className='menu-item'>Projects</button>
+                <button className='menu-item'>CV</button>
+                <button className='menu-item'>About Me</button>  
+                <button className='menu-item'>Contact Me</button>
             </nav>
         </header>
     );
